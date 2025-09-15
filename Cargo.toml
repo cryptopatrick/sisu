@@ -1,0 +1,27 @@
+[package]
+publish = false
+name = "sisu"
+version = "0.0.5"
+authors = ["cryptopatrick <cryptopatrick@gmail.com>"]
+edition = "2018"
+description = "Crate for working with SISU (Statecharts-based implementation of Information State Update."
+documentation = "https://docs.rs/sisu"
+homepage = "https://github.com/cryptopatrick/sisu"
+repository = "https://github.com/cryptopatrick/sisu"
+readme = "README.md"
+keywords = ["sisu", "nlp", "ai"]
+license = "Unlicense/MIT"
+
+
+[lib]
+name = "sisu"
+path = "src/lib.rs"
+
+
+[[test]]
+name = "tests"
+path = "tests/tests.rs"
+
+[dependencies.sisu]
+
+[dev-dependencies.sisu]
