@@ -1,5 +1,5 @@
 [package]
-publish = false
+publish = true
 name = "sisu"
 version = "0.0.5"
 authors = ["cryptopatrick <cryptopatrick@gmail.com>"]
