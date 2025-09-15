@@ -21,7 +21,3 @@ path = "src/lib.rs"
 [[test]]
 name = "tests"
 path = "tests/tests.rs"
-
-[dependencies.sisu]
-
-[dev-dependencies.sisu]
